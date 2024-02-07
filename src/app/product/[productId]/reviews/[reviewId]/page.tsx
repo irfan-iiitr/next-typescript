@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation"
 
+
+
 export default function reviewsOfProduct({params}:{params:{
     productId:string,
     reviewId:string
